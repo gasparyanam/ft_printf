@@ -59,8 +59,10 @@ Compiling your program with ft_printf
 cc -Wall -Wextra -Werror main.c libftprintf.a
 ```
 
-ExampleC#include "ft_printf.h"
-``` c
+Example
+```c
+#include "ft_printf.h"
+
 int main(void)
 {
     ft_printf("Hello, 42!\n");
