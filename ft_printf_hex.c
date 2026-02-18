@@ -6,7 +6,7 @@
 /*   By: agaspary <agaspary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/16 02:03:06 by agaspary          #+#    #+#             */
-/*   Updated: 2026/02/18 21:13:11 by agaspary         ###   ########.fr       */
+/*   Updated: 2026/02/18 21:30:03 by agaspary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int	ft_puthex_bc(unsigned long dec, int x)
 	int		count;
 	char	*base;
 
+	base = "";
 	if (x == 'X')
 		base = "0123456789ABCDEF";
 	else

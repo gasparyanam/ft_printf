@@ -6,7 +6,7 @@
 /*   By: agaspary <agaspary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/16 01:54:39 by agaspary          #+#    #+#             */
-/*   Updated: 2026/02/18 17:57:43 by agaspary         ###   ########.fr       */
+/*   Updated: 2026/02/18 21:26:00 by agaspary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,17 +62,3 @@ int	ft_putunit_bc(unsigned int n)
 	count += ft_putchar_bc(n % 10 + '0');
 	return (count);
 }
-/* size_t	ft_putunit(unsigned int n)
-{
-	size_t	bytes;
-
-	bytes = 0;
-	if (n >= 10)
-	{
-		bytes += ft_putunit(n / 10);
-		bytes += ft_putchar_c((n % 10) + '0');
-	}
-	else
-		bytes += ft_putchar_c(n + '0');
-	return (bytes);
-} */
