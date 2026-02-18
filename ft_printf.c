@@ -6,7 +6,7 @@
 /*   By: agaspary <agaspary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/16 01:54:23 by agaspary          #+#    #+#             */
-/*   Updated: 2026/02/18 21:31:25 by agaspary         ###   ########.fr       */
+/*   Updated: 2026/02/19 01:02:25 by agaspary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ static int	ft_determinant(const char *format, va_list arg)
 	else if (*format == 'X')
 		count += ft_puthex_bc(va_arg(arg, unsigned int), 'X');
 	else if (*format == 'p')
-		count += ft_putptr_bc(va_arg(arg, unsigned long long));
+		count += ft_putptr_bc(va_arg(arg, unsigned long));
 	return (count);
 }
 
