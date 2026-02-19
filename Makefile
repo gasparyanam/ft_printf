@@ -18,7 +18,7 @@ $(NAME): $(OBJS) $(LIBFT)
 $(LIBFT):
 	make -C libft
 
-%.o: %.c
+%.o: %.c ft_printf.հ
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:

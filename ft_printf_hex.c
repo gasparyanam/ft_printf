@@ -6,13 +6,13 @@
 /*   By: agaspary <agaspary@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/16 02:03:06 by agaspary          #+#    #+#             */
-/*   Updated: 2026/02/19 00:46:08 by agaspary         ###   ########.fr       */
+/*   Updated: 2026/02/19 15:16:59 by agaspary         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-int	ft_puthex_bc(unsigned long dec, int x)
+int	ft_puthex_bc(unsigned long long dec, int x)
 {
 	int		count;
 	char	*base;
@@ -28,7 +28,7 @@ int	ft_puthex_bc(unsigned long dec, int x)
 	return (count);
 }
 
-int	ft_putptr_bc(unsigned long n)
+int	ft_putptr_bc(unsigned long long n)
 {
 	int	count;
 
